@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 92vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.button-rows--full-show {
+  display: flex;
+  flex-direction: row;
+}
+
+.toggle--button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  background: none;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.toggle--button:hover {
+  color: #007bff;
+}
+
+.toggle--button:nth-child(2),
+.toggle--button:nth-child(3),
+.toggle--button:nth-child(4),
+.toggle--button:nth-child(5),
+.toggle--button:nth-child(6) {
+  margin-left: 30px;
+}
+
+@media(max-width: 1200px) {
+  .button-rows--full-show {
+    display: none;
+  }
+}
+
+.select-rows--mobile-show {
+
+}
+
+@media(min-width: 1201px) {
+  .select-rows--mobile-show {
+    display: none;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
