@@ -24,52 +24,33 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">О нас</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="catalog.html">Каталог</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Контакты</a>
           </li>
-          <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Категории
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item active" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+                <a href="roof.html" class="dropdown-item">Кровля</a>
+                <a href="fence.html" class="dropdown-item">Заборы и ограждения</a>
+                <a href="garden.html" class="dropdown-item">Дача и сад</a>
+                <a href="landscape.html" class="dropdown-item">Благоустройство</a>
+                <a href="ritual.html" class="dropdown-item">Ритуальные изделия</a>
             </div>
           </li>
         </ul>
@@ -78,219 +59,300 @@
   </nav>
 
   <!-- Page Content -->
+  <main class="main main--roof">
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Portfolio 1
-      <small>Subheading</small>
+    <h1 class="mt-4 mb-3">Кровля
+      <small></small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
         <a href="index.html">Главная</a>
       </li>
+      <li class="breadcrumb-item">
+          <a href="catalog.html">Каталог</a>
+      </li>
       <li class="breadcrumb-item active">Кровля</li>
     </ol>
 
     <div class="button-rows--full-show">
-        <button class="toggle--button source source-1">металлочерепица</button>
-        <button class="toggle--button source source-2">модульная металлочерепица</button>
-        <button class="toggle--button source source-3">профнастил</button>
-        <button class="toggle--button source source-4">водосточные системы</button>
-        <button class="toggle--button source source-5">доборные элементы</button>
-        <button class="toggle--button source source-6">зонты для дымоходов</button>
+      <button class="toggle--button source source-1">металлочерепица</button>
+      <button class="toggle--button source source-2">модульная металлочерепица</button>
+      <button class="toggle--button source source-3">профнастил</button>
+      <button class="toggle--button source source-4">водосточные системы</button>
+      <button class="toggle--button source source-5">доборные элементы</button>
+      <button class="toggle--button source source-6">зонты для дымоходов</button>
     </div>
 
     <div class="select-rows--mobile-show">
-        <select name="" id="" class="roof--select">
-            <option value="металлочерепица" class="roof--select__item"></option>
-            <option value="модульная металлочерепица" class="roof--select__item"></option>
-            <option value="профнастил" class="roof--select__item"></option>
-            <option value="водосточные системы" class="roof--select__item"></option>
-            <option value="доборные элементы" class="roof--select__item"></option>
-            <option value="зонты для дымоходов" class="roof--select__item"></option>
-        </select>
+      <select name="" id="" class="roof--select">
+        <option value="металлочерепица" class="roof--select__item"></option>
+        <option value="модульная металлочерепица" class="roof--select__item"></option>
+        <option value="профнастил" class="roof--select__item"></option>
+        <option value="водосточные системы" class="roof--select__item"></option>
+        <option value="доборные элементы" class="roof--select__item"></option>
+        <option value="зонты для дымоходов" class="roof--select__item"></option>
+      </select>
     </div>
-<div  class="target target-1">
-    <!-- Project One -->
-    <div class="row1">
-
-
-          <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/super-mont-poliester-2.jpg" alt="">
-
-
-      <div class="col-md-7">
-        <h3>Металло черепица Супер Монтерей(полиэстер)</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-        <a class="btn btn-primary" href="portfolio-item.html">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+    <div class="target target-1">
+      <!-- Project One -->
+      <div class="row1">
+        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/super-mont-poliester-2.jpg" alt="">
+        <div class="col-md-7">
+          <h3>Металлочерепица Супер Монтерей (полиэстер)</h3>
+          <ul class="roof__list--main">
+            <li class="roof__item"><span class="roof__item--bold">Толщина стали: </span>0,4 - 0,5 мм.</li>
+            <li class="roof__item"><span class="roof__item--bold">Толщина цинкования: </span>100-140 гр/м2.</li>
+            <li class="roof__item"><span class="roof__item--bold">Тип покрытия: </span>полимерное.</li>
+            <li class="roof__item"><span class="roof__item--bold">Толщина покрытия: </span>25 мкм.</li>
+            <li class="roof__item"><span class="roof__item--bold">Страна изготовления металла: </span>РФ</li>
+            <li class="roof__item"><span class="roof__item--bold">Срок гарантии: </span>5 лет.</li>
+          </ul>
+          <p class="roof__price">Цена с НДС от 8 руб. 40 к. за м.кв.</p>
+          <a class="btn btn-primary" href="super-monterei.html">Подробнее
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
       </div>
-    </div>
-    <!-- /.row -->
+      <!-- /.row -->
 
-    <hr>
+      <hr>
 
-    <!-- Project Two -->
-    <div class="row1">
+      <!-- Project Two -->
+      <div class="row1">
 
-          <img class="img-fluid rounded mb-3 mb-md-0 img"  src="img/super-mont-poliester-mat.jpg" alt="">
+        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/super-mont-poliester-mat.jpg" alt="">
 
-      <div class="col-md-7">
-        <h3>Металлочерепица Супер Монтерей (полиэстер матовый)</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-        <a class="btn btn-primary" href="#">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        <div class="col-md-7">
+          <h3>Металлочерепица Супер Монтерей (полиэстер матовый)</h3>
+          <ul class="roof__list--main">
+              <li class="roof__item"><span class="roof__item--bold">Толщина стали: </span>0,4 - 0,5 мм.</li>
+              <li class="roof__item"><span class="roof__item--bold">Толщина цинкования: </span>100-140 гр/м2.</li>
+              <li class="roof__item"><span class="roof__item--bold">Тип покрытия: </span>полимерное.</li>
+              <li class="roof__item"><span class="roof__item--bold">Толщина покрытия: </span>25 мкм.</li>
+              <li class="roof__item"><span class="roof__item--bold">Страна изготовления металла: </span>РФ</li>
+              <li class="roof__item"><span class="roof__item--bold">Срок гарантии: </span>5 лет.</li>
+            </ul>
+            <p class="roof__price">Цена с НДС от 8 руб. 40 к. за м.кв.</p>
+          <a class="btn btn-primary" href="super-monterei--mat.html">Подробнее
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
       </div>
-    </div>
-    <!-- /.row -->
+      <!-- /.row -->
 
-    <hr>
+      <hr>
 
-    <!-- Project Three -->
-    <div class="row1">
-
-
-          <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/metallocherepica-alter.jpg" alt="">
-
-
-      <div class="col-md-7">
-        <h3>Металлочерепица Альтер</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-        <a class="btn btn-primary" href="#">View Project
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+      <!-- Project Three -->
+      <div class="row1">
+        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/metallocherepica-alter.jpg" alt="">
+        <div class="col-md-7">
+          <h3>Металлочерепица Альтер</h3>
+          <ul class="roof__list--main">
+              <li class="roof__item"> <span class="roof__item--bold">Толщина стали: </span>0,4 - 0,5 мм.</li>
+              <li class="roof__item"><span class="roof__item--bold">Толщина цинкования: </span>100-140 гр/м2.</li>
+              <li class="roof__item"><span class="roof__item--bold">Тип покрытия: </span>полимерное.</li>
+              <li class="roof__item"><span class="roof__item--bold">Толщина покрытия: </span>25 мкм.</li>
+              <li class="roof__item"><span class="roof__item--bold">Страна изготовления металла: </span>РФ</li>
+              <li class="roof__item"><span class="roof__item--bold">Срок гарантии: </span>5 лет.</li>
+            </ul>
+            <p class="roof__price">Цена с НДС от 8 руб. 40 к. за м.кв.</p>
+            <a class="btn btn-primary" href="alter.html">Подробнее
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
       </div>
-    </div>
-    <!-- /.row -->
+      <!-- /.row -->
 
-</div >
-<div class="target target-2">
-  <div class="row1">
-    <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/modul-cherepica.jpg" alt="">
-    <div class="col-md-8">
-      <h3>Модульная металлочерепица</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-      <a class="btn btn-primary" href="portfolio-item.html">View Project
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
     </div>
-<div class="img_container">
-    <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-    <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-    <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-    <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-    <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-</div>
-    <h2 class="img_container">Приемущества модульной системы</h2>
-    <div class="col-md-6">
-    <ul>
-      <li>Приемущества модульной системы</li>
-      <li>Приемущества модульной системы</li>
-      <li>Приемущества модульной системы</li>
-      <li>Приемущества модульной системы</li>
-      <li>Приемущества модульной системы</li>
-      <li>Приемущества модульной системы</li>
-      <li>Приемущества модульной системы</li>
-    </ul>
-    </div>
-  </div>
+    <div class="target target-2">
+      <div class="row1">
+        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/modul-cherepica.jpg" alt="">
+        <div class="col-md-8">
+          <h3>Модульная металлочерепица</h3>
+          <p>Внешне черепица «Максима» представляет собой стальные листы небольшого размера с пятью нижними волнами и
+            шестью вершинами. Особым образом выполнены края стыков, они полностью повторяют форму волны металлочерепицы,
+            что делает замковое соединение незаметным и герметичным (исключено попадание влаги в замок).</p>
+          <a class="btn btn-primary" href="modul-metal.html">Подробнее
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        <div class="img_container--metal">
+          <img class="img__metal" src="img/cher-mod-pict1.jpg" alt="">
+          <img class="img__metal" src="img/cher-mod-pict2.jpg" alt="">
+          <img class="img__metal" src="img/cher-mod-pict3.jpg" alt="">
+          <img class="img__metal" src="img/cher-mod-pict4.jpg" alt="">
+          <img class="img__metal" src="img/cher-mod-pict5.jpg" alt="">
+        </div>
+        <h2 class="img_container">Приемущества модульной металлочерепицы:</h2>
+        <div class="col-md-6">
+          <ul>
+            <li>долговечность, гарантия до 50 лет;</li>
+            <li>компактный размер и малый вес позволяет осуществлять кровельные работы даже одному человеку;</li>
+            <li>лёгкий и удобный монтаж;</li>
+            <li>отсутствие заводских отверстий не привязывает заказчика покупать саморезы одной марки или типоразмера;
+            </li>
+            <li>экономия до 20% покрытия при монтаже сложных кровель;</li>
+            <li>уникальная конструкция передней кромки обеспечивает герметичность кровельной системы;</li>
+            <li>безупречный внешний вид - визуальное отсутствие стыков благодаря совершенной конструкции модулей;</li>
+            <li>обладает низкой чувствительностью к усыханию стропильной системы;</li>
+            <li>возможность легко заменять (убирать) нужное количество модулей, не разрушая всю конструкцию кровли.</li>
+          </ul>
+        </div>
+      </div>
 
-</div>
+    </div>
     <div class="target target-3">
 
       <div class="row1">
-
-
-        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/super-mont-poliester-2.jpg" alt="">
-
-
+        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/proflist-mp-20b.jpg" alt="">
         <div class="col-md-7">
-          <h3>Металло черепица Супер Монтерей(полиэстер)</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="portfolio-item.html">View Project
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
+            <h3>Профнастил кровельный МП-20</h3>
+            <ul class="roof__list--main">
+                <li class="roof__item"> <span class="roof__item--bold">Толщина стали: </span>0,45 - 0,5 мм.</li>
+                <li class="roof__item"><span class="roof__item--bold">Толщина цинкования: </span>100-140 гр/м2.</li>
+                <li class="roof__item"><span class="roof__item--bold">Тип покрытия: </span>полиэстер.</li>
+                <li class="roof__item"><span class="roof__item--bold">Толщина покрытия: </span>25 мкм.</li>
+                <li class="roof__item"><span class="roof__item--bold">Страна изготовления металла: </span>РФ</li>
+                <li class="roof__item"><span class="roof__item--bold">Срок гарантии: </span>5 лет.</li>
+              </ul>
+              <p class="roof__price">Цена с НДСот 10 руб 80 к. за м.кв.</p>
+              <a class="btn btn-primary" href="profnastil-mp-20.html">Подробнее
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
       </div>
       <hr>
       <div class="row1">
-        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/super-mont-poliester-2.jpg" alt="">
+        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/proflist-c-8s.jpg" alt="">
         <div class="col-md-7">
-          <h3>Металло черепица Супер Монтерей(полиэстер)</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="portfolio-item.html">View Project
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
+            <h3>Профнастил стеновой С-8</h3>
+            <ul class="roof__list--main">
+                <li class="roof__item"> <span class="roof__item--bold">Толщина стали: </span>0,45 - 0,5 мм.</li>
+                <li class="roof__item"><span class="roof__item--bold">Толщина цинкования: </span>100-140 гр/м2.</li>
+                <li class="roof__item"><span class="roof__item--bold">Тип покрытия: </span>полиэстер.</li>
+                <li class="roof__item"><span class="roof__item--bold">Толщина покрытия: </span>25 мкм.</li>
+                <li class="roof__item"><span class="roof__item--bold">Страна изготовления металла: </span>РФ</li>
+                <li class="roof__item"><span class="roof__item--bold">Срок гарантии: </span>5 лет.</li>
+              </ul>
+              <p class="roof__price">Цена с НДСот 10 руб 80 к. за м.кв.</p>
+              <a class="btn btn-primary" href="profnastil-s-8html.html">Подробнее
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
       </div>
       <hr>
-      <div>
+      <section>
         <h2>Преимущества использования профилированного листа</h2>
+
         <h3>универсальность</h3>
-        <p>Благодаря своей прочности, надежности и пожаробезопасности профнастил идеален для кровли, обшивки стен и возведения заборов или перегородок. Кроме того, материал устойчив к коррозии и способен оградить от лишнего шума и пыли.</p>
+        <p>Благодаря своей прочности, надежности и пожаробезопасности профнастил идеален для кровли, обшивки стен и
+          возведения заборов или перегородок. Кроме того, материал устойчив к коррозии и способен оградить от лишнего
+          шума и пыли.</p>
 
         <h3>долговечность</h3>
-        <p>Длительный срок службы, который может даже превышать пятидесятилетний рубеж, способствует тому, что профилированный лист не имеет конкурентов среди других кровельных и облицовочных материалов.</p>
+        <p>Длительный срок службы, который может даже превышать пятидесятилетний рубеж, способствует тому, что
+          профилированный лист не имеет конкурентов среди других кровельных и облицовочных материалов.</p>
 
         <h3>эстетичность</h3>
-        <p>Настил отличает разнообразная цветовая гамма, что позволяет вам экспериментировать с внешним видом здания и воплощать в жизнь самые смелые дизайнерские решения.</p>
+        <p>Настил отличает разнообразная цветовая гамма, что позволяет вам экспериментировать с внешним видом здания и
+          воплощать в жизнь самые смелые дизайнерские решения.</p>
 
         <h3>экономичность</h3>
-        <p>При всех вышеупомянутых преимуществах данный кровельный и отделочный материал имеет невысокую стоимость на рынке в Минске и других городах республики. При этом значительно снизить затраты позволяет также легкость его установки и транспортировки. В результате, продажа профнастила становится оптимальным решением и для покупателей.</p>
+        <p>При всех вышеупомянутых преимуществах данный кровельный и отделочный материал имеет невысокую стоимость на
+          рынке в Минске и других городах республики. При этом значительно снизить затраты позволяет также легкость его
+          установки и транспортировки. В результате, продажа профнастила становится оптимальным решением и для
+          покупателей.</p>
+
+        <h3>производство и монтаж профнастила</h3>
+        <p>Профилированный лист с трапециевидной формой гофра изготавливается на специальных станках методом холодного
+          проката. Монтаж такого строительного материала – очередное его преимущество, т.к. при установке не требуется
+          каких-либо специальных навыков и инструментов.</p>
+
 
         <hr>
-      </div>
+      </section>
 
     </div>
     <div class="target target-4">
       <div class="row1">
-<h1>ВОДОСТОЧНАЯ СИСТЕМА</h1>
-        <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/super-mont-poliester-2.jpg" alt="">
+        <h1>ВОДОСТОЧНАЯ СИСТЕМА</h1>
+        <img width="515px" class="" src="img/vodostok.jpg" alt="">
         <div class="col-md-7">
           <h3>Металло черепица Супер Монтерей(полиэстер)</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="portfolio-item.html">View Project
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p> -->
+          <!-- <a class="btn btn-primary" href="portfolio-item.html">Подробнее
             <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+          </a> -->
         </div>
-        <p> <strong> Водосточные системы</strong> являются главным образом направляющими элементами для организованного схода дождевых и талых вод с поверхности кровли и их отведение в систему ливневой канализации или в специально подготовленные для этого места. Современные водосточные системы, по-простому – <strong>водосток</strong> или <strong>водосток для кровли</strong>, позволяют дольше сохранять первоначальный вид здания, при этом защищая фасад и цоколь от раннего разрушения и повреждения.</p>
-        В состав водосточной системы входят горизонтальный<strong> желоб водосточный</strong> и вертикальные <strong>водосточные трубы (труба водостока)</strong>. Кроме того, <strong>система водостока</strong> насчитывает еще ряд элементов, в том числе: держатели желобов или крепление водостока и труб, воронки, отводы и прочее.</p>
-   <p>Наши опытные менеджеры в кротчайший срок помогут произвести бесплатный расчет водостока, предоставят информацию о необходимом диаметре, расскажут о цене на водосток в различных вариациях и материалах, и помогут купить водосток, который подходит именно Вам.</p>
-<p>Оба вида водостоков изготавливаются из высококачественной оцинкованной стали с полимерным покрытием, водостоки круглого сечения предусмотрены также в оцинкованном виде без полимерного покрытия.</p>
-  <h2>ПРЯМОУГОЛЬНОГО СЕЧЕНИЯ «СТАНДАРД»</h2>
-        <div class="img_container">
-          <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-          <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-          <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-          <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
-          <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/modul-cherepica.jpg" alt="">
+        <p> <strong> Водосточные системы</strong> являются главным образом направляющими элементами для организованного
+          схода дождевых и талых вод с поверхности кровли и их отведение в систему ливневой канализации или в специально
+          подготовленные для этого места. Современные водосточные системы, по-простому – <strong>водосток</strong> или
+          <strong>водосток для кровли</strong>, позволяют дольше сохранять первоначальный вид здания, при этом защищая
+          фасад и цоколь от раннего разрушения и повреждения.</p>
+        В состав водосточной системы входят горизонтальный <strong> желоб водосточный</strong> и вертикальные
+        <strong>водосточные трубы (труба водостока). </strong> Кроме того, <strong>система водостока</strong> насчитывает
+        еще ряд элементов, в том числе: держатели желобов или крепление водостока и труб, воронки, отводы и прочее.</p>
+        <p>Наши опытные менеджеры в кротчайший срок помогут произвести бесплатный расчет водостока, предоставят
+          информацию о необходимом диаметре, расскажут о цене на водосток в различных вариациях и материалах, и помогут
+          купить водосток, который подходит именно Вам.</p>
+        <p>Оба вида водостоков изготавливаются из высококачественной оцинкованной стали с полимерным покрытием,
+          водостоки круглого сечения предусмотрены также в оцинкованном виде без полимерного покрытия.</p>
+        <div class="container--roof">
+          <h2>ПРЯМОУГОЛЬНОГО СЕЧЕНИЯ «СТАНДАРД»</h2>
+          <div class="img_container">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodpr-1.jpg" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodpr-2.jpg" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodpr-3.jpg" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodpr-4.jpg" alt="">
+          </div>
+          <p>Стальная основа дает прочность, алюмоцинк защищает от коррозии и образует защиту поверхностей среза и
+            повреждений. Полимерное покрытие придает материалу дополнительную защиту от воздействия окружающей среды.
+          </p>
+          <img class="img-fluid rounded" src="img/risibig1.jpg" alt="">
+          <img class="img-fluid rounded" src="img/cifraialli1.jpg" alt="">
+          <p class="roof__p roof__p--red">Цвета покрытий RAL</p>
+          <img src="img/risi2color.jpg" alt="">
         </div>
-        <p>Стальная основа дает прочность, алюмоцинк защищает от коррозии и образует защиту поверхностей среза и повреждений. Полимерное покрытие придает материалу дополнительную защиту от воздействия окружающей среды.</p>
-        <img class="img-fluid rounded" src="img/risibig2.jpg" alt="">
-        <img class="img-fluid rounded" src="img/cifraialli2.jpg" alt="">
-
-
-
+        <div class="container--roof">
+          <h2>ВОДОСТОЧНАЯ СИСТЕМА КРУГЛОГО СЕЧЕНИЯ</h2>
+          <div class="img_container">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodkr-1.jpg" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodkr-2.jpg" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodkr-3.jpg" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0 imgrw" src="img/vodkr-4.jpg" alt="">
+          </div>
+          <p>Стальная основа дает прочность, алюмоцинк защищает от коррозии и образует защиту поверхностей среза и
+            повреждений. Полимерное покрытие придает материалу дополнительную защиту от воздействия окружающей среды.
+          </p>
+          <img class="img-fluid rounded" src="img/risibig2.jpg" alt="">
+          <img class="img-fluid rounded" src="img/cifraialli2.jpg" alt="">
+          <p class="roof__p">
+              Водосточная система круглого сечения изготавливается любого цвета и различных диаметров:
+          </p>
+          <ul class="roof__list">
+            <li class="roof__item"> желоба – от 120 до 200 мм</li>
+            <li class="roof__item"> трубы – от 100 до 180 мм </li>
+          </ul>
+        </div>
       </div>
     </div>
+
+
     <div class="target target-5">
-<h2>Доборные элементы используются как для защиты так и для декора вашей кровли.</h2>
-<p>Так защитными функциями являются предотвращение попадания влаги, грязи и мусора в подкровельное пространство . Декоративные функции заключаются в оформлении различных стыков кровли , мест примыканий , изломов.
-  Предусмотрено также изготовление доборных элементов нестандартных форм и размеров , что позволяет при необходимости найти грамотное эстетическое и практическое решение для кровель самых сложных форм и размеров. </p>
-<p>Наличие собственного оборудования и широкой цветовой гаммы металлов на складе, позволяет нам изготавливать доборные элементы в течении одного дня или даже часа !</p>
-<h2></h2>
+      <h2>Доборные элементы используются как для защиты так и для декора вашей кровли.</h2>
+      <p>Так защитными функциями являются предотвращение попадания влаги, грязи и мусора в подкровельное пространство .
+        Декоративные функции заключаются в оформлении различных стыков кровли , мест примыканий , изломов.
+        Предусмотрено также изготовление доборных элементов нестандартных форм и размеров , что позволяет при
+        необходимости найти грамотное эстетическое и практическое решение для кровель самых сложных форм и размеров.
+      </p>
+      <p>Наличие собственного оборудования и широкой цветовой гаммы металлов на складе, позволяет нам изготавливать
+        доборные элементы в течении одного дня или даже часа!</p>
+      <h2></h2>
       <div class="row1">
         <img class="img-fluid rounded mb-3 mb-md-0 img" src="img/prich-kup.jpg" alt="">
-        <div class="col-md-7">
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
-        </div>
       </div>
 
 
@@ -298,35 +360,129 @@
 
       <img class="img-fluid rounded mb-3 mb-md-0 " src="img/house1.jpg" alt="">
       <hr>
-      <div class="img_container">
-        <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/konek-190.jpg" alt="">
-        <span>Текст</span>
-        <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/konek-150.jpg" alt="">
-        <span>Текст</span>
+      <div class="dobor__img-container">
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Конек плоский 150</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/konek-150.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">6,24 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Конек плоский 190</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/konek-190.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">7,20 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Торцевая планка 100</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/toresc-100.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">3,75 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Торцевая планка 145</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/toresc-145.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">4,43 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Ендова верхняя</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/endova-verh.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">4,68 руб.<span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Ендова нижняя</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/endova-nez.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">9,38 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Снеговой Барьер </h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/sneg-bar.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">3,12 руб.<span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Планка примыкания верхняя</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/prem-verh.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">6,24 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Планка примыкания нижняя</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/prem-nez.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">6,24 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Лобовая планка</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/lob-planka.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">От 0 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Планка Карнизная</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/karnez-planka.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">от 2,67 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Отлив Оконный</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/otl-okon.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">От 0 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Планка конька круглого</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/planka-kon-krug.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">От 0 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Конек плоский 190</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/zaglush-kon-krug.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">От 0 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
+        <div class="dobor__block">
+            <h3 class="dobor__head3">Парапет</h3>
+            <img class="img-fluid rounded mb-4 mb-md-0 imgrw2" src="img/parap.jpg" alt="">
+            <h4 class="dobor__head4">Цена с НДС</h4>
+            <h5 class="dobor__price">От 0 руб. <span class="dobor__price--small">(за м. пог.)</span></h5>
+        </div>
       </div>
-</div>
+    </div>
 
     <div class="target target-6">
       <div class="col-md-10">
         <h4>Зонты для дымоходов являются неотъемлемой частью современных кровель.</h4>
-        <p>Этот элемент используется в качестве барьера для попадания влаги в систему вентиляции а также препятствуют задувание ветром и образование обратной тяги , кроме того он прекрасно завершит общую композицию вашей кровли и создаст приятный внешний вид. Наша компания изготовит для вас как зонты для вентшахт / дымоходов , так и небольшие зонтики на столбы из высококачественного материала и в кротчайшие сроки.</p>
+        <p>Этот элемент используется в качестве барьера для попадания влаги в систему вентиляции а также препятствуют
+          задувание ветром и образование обратной тяги , кроме того он прекрасно завершит общую композицию вашей кровли
+          и создаст приятный внешний вид. Наша компания изготовит для вас как зонты для вентшахт / дымоходов , так и
+          небольшие зонтики на столбы из высококачественного материала и в кротчайшие сроки.</p>
 
       </div>
-      <div class="img_container">
-      <img class="img-fluid rounded mb-4 mb-md-0 imgrw" src="img/dmoh.jpg" alt="">
-        <span>Зонт для дымохода </span>
-      <img class="img-fluid rounded mb-4 mb-md-0 imgrw" src="img/kolp.jpg" alt="">
-        <span>Колпаки на столбы</span>
+      <div class="dimohod">
+        <div class="dimohod__block">
+          <h4 class="dimohod__h4">Зонт для дымохода </h4>
+            <img class="dimohod__img" src="img/dmoh.jpg" alt="">
         </div>
+        <div class="dimohod__block">
+            <h4 class="dimohod__h4">Колпаки на столбы</h4>
+            <img class="dimohod__img" src="img/kolp.jpg" alt="">
+        </div>
+      </div>
     </div>
 
-    </div>
+  </div>
+</main>
 
 
-    <!-- /.row -->
+  <!-- /.row -->
 
-    <!-- Pagination -->
-   <!-- <ul class="pagination justify-content-center">
+  <!-- Pagination -->
+  <!-- <ul class="pagination justify-content-center">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
           <span aria-hidden="true">&laquo;</span>
@@ -351,7 +507,6 @@
 
     </ul>-->
 
-  </div>
   <!-- /.container -->
 
   <!-- Footer -->
